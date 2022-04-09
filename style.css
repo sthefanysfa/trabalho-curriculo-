@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{ 
+    padding: 2px 16px; 
+    max-width: 894px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.lateral{
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.item-lateral{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0 auto;
+}
+
+.item-lateral img{
+    height: 15px;
+    width: 15px;
+    text-align: left;
+}
+
+.item-img img{
+    height: 15px;
+    width: 15px;
+    text-align: left;
+   
+}
+
+.item-texto{
+   
+
+}
+
+.logo{
+    width: 180px;
+    height: 190px ;
+    margin-bottom: 100px;
+}
+
+
+.conteudo{  
+    padding: 5px;
+    width: 80%;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.titulo{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+ 
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+
+}
+
+.card .lateral{
+    
+}
+
